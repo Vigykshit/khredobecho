@@ -1,0 +1,84 @@
+.logo{
+    height: 40px;
+   
+}
+
+.center{
+    margin-right: 35%;
+    margin-left: 15px;
+}
+
+
+
+.btn-danger{
+    background: transparent;
+  
+   
+}
+i{
+    margin-right: 5px;
+   
+}
+.dropdown-toggle{
+    margin-left: 15px;
+}
+
+.register{
+   margin-top: 56px;
+    width: 100%;
+    height: 220px;
+    border: 2px double red;
+
+   
+}
+.check{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 1%;
+}
+.d-block{
+    width: 100%;
+    height: 500px;
+    /* margin-left: 30%; */
+    /* margin-top: -200px; */
+}
+.check1{
+    width: 100%;
+    height: 350px;
+    border: 2px solid green;
+}
+.scooty{
+    display: flex;
+}
+.black{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 5%;
+}
+
+
+
+
+
+@media screen and (max-width:400px){
+    .d-block{
+        width: 100%;
+        height: 220px;
+        margin-left: 0%;
+    } 
+    .scooty{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .black{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        /* margin-left: 5%; */
+        padding: 1%;
+    }
+    
+}
