@@ -26,15 +26,23 @@ i{
 .register{
    margin-top: 56px;
     width: 100%;
-    height: 220px;
-    border: 2px double red;
+    height: 500px;
+    /* border: 2px double red; */
+    
 
    
 }
+
+.box1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
 .check{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1%;
 }
 .d-block{
@@ -46,7 +54,7 @@ i{
 .check1{
     width: 100%;
     height: 350px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .scooty{
     display: flex;
@@ -54,15 +62,15 @@ i{
 .black{
     height: 320px;
     width: 500px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 10px;
     padding: none;
 }
 .into{
-    margin-top: 800px;
-    height: 300px;
+    /* margin-top: 800px; */
+    height: 350px;
     width: 100%;
-    border: 1px blue dotted;
+    /* border: 1px blue dotted; */
 }
 .suv{
     width: 100%;
@@ -85,6 +93,94 @@ p{
     color: black;
 }
 
+.carousel-control-next{
+    opacity: 0;
+    
+}
+.carousel-control-prev{
+    opacity: 0;
+  
+}
+/* extra style */
+
+.extra{
+    height: 400px;
+    width: 100%;
+    /* border: 2px double yellowgreen; */
+    color: #0059a3;
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-image: url(https://assets.cars24.com/production/c2b-website/231020160200/js/e2d132d959682b3cec77eaf176e61d58.png);
+    background-position: right;
+}
+.extra >p{
+    color: rgb(35, 80, 65);
+    padding-left: 3%;
+}
+.extra >h2{
+    padding: 3%;
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.extra >button{
+    margin-left: 3%;
+    color: black;
+}
+
+
+
+
+
+/* footer Style */
+.logo2{
+    height: 60px;
+    margin-left: 48%;
+    margin-top: 2rex;
+}
+.aboutzomato{
+    height: 200px;
+    /* width: 90%; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 5%;
+    width:28%;
+    border-right: 2px solid #fff;
+    font-size: 30px;
+    color:black;
+   
+    
+}
+.noborder{
+    border:none;
+}
+.footing{
+    text-align: center;
+    font-size: large;
+    margin-top: 0%;
+}
+.foottext{
+    font-size: 20px;
+    color: gray;
+   
+}
+
+ul{
+    list-style-type: none;
+    
+}
+.footlink {
+    height: 52px;
+}
+#naam{
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+
+
+
 
 
 
@@ -101,33 +197,66 @@ p{
     }
 
     .black{
-        height: 100px;
-        width: 100px;
+        height: 170px;
+        width: 100%;
         border: 2px solid black;
         /* margin-left: 5%; */
         padding: 1%;
         box-shadow: 1px 1px 1px 1px gray;
     }
     .suv{
-        height: 50px;
+        height: 110px;
         /* width: 100%; */
     }
     .name > h6{
         font-size:5px;
     }
-       
-       
+    .register {
+        margin-top: 56px;
+        width: 100%;
+        height: 224px;
+        border: 2px double red;
+    }
+    .carousel-indicators {
+        margin-left: 20%;
+        width: 8px;
+    }
+    .black-box{
+        visibility: hidden !important;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+    .carousel-caption {
+        bottom:-28px
+    }
   
     p{
         font-size: 5px;
 
     }
-    .name > button{
-        width: 100%;
-        margin-top: -40px;
-        font-size: 5px;
-       text-align: center;
-        height: 15px;
+    .name > button {
+        width: 38%;
+        margin-top: -67px;
+        font-size: 14px;
+        text-align: center;
+        height: 20px;
+        margin-left: 174px;
     }
-
+    .name > h6 {
+        font-size: 13px;
+    }
+    .scooty{
+        display: block;
+    }
+    p {
+        font-size: 9px;
+    }
+    nav.navbar.navbar-expand-sm.navbar-dark.bg-dark.fixed-top {
+        width: 70%;
+    }
+    .container-fluid.mt-3 {
+        width: 115%;
+    }
 }
